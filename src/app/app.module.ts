@@ -14,6 +14,7 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroService } from './hero.service';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HeroSearchComponent } from './hero-search.component';
 
 
 
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     DashboardComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
